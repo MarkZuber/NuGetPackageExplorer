@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuGetPackageExplorer", "PackageExplorer\NuGetPackageExplorer.csproj", "{3B56B367-7763-4F70-9933-2B8B23718A0D}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "PackageExplorer.Package.Nightly", "PackageExplorer.Package.Nightly\PackageExplorer.Package.Nightly.wapproj", "{73402D91-1490-4196-823B-4BF1CFDAA9FE}"
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "PackageExplorer.Package", "PackageExplorer.Package\PackageExplorer.Package.wapproj", "{452579BF-FF89-46FD-953D-E9D02D71EFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageValidationTest", "PackageValidationTest\PackageValidationTest.csproj", "{35771C7C-2047-4CC9-81DA-BD85546F1769}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,6 +104,16 @@ Global
 		{452579BF-FF89-46FD-953D-E9D02D71EFDD}.Store|Any CPU.ActiveCfg = Store|x86
 		{452579BF-FF89-46FD-953D-E9D02D71EFDD}.Store|Any CPU.Build.0 = Store|x86
 		{452579BF-FF89-46FD-953D-E9D02D71EFDD}.Store|Any CPU.Deploy.0 = Store|x86
+		{35771C7C-2047-4CC9-81DA-BD85546F1769}.Choco|Any CPU.ActiveCfg = Debug|Any CPU
+		{35771C7C-2047-4CC9-81DA-BD85546F1769}.Choco|Any CPU.Build.0 = Debug|Any CPU
+		{35771C7C-2047-4CC9-81DA-BD85546F1769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35771C7C-2047-4CC9-81DA-BD85546F1769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35771C7C-2047-4CC9-81DA-BD85546F1769}.Nightly|Any CPU.ActiveCfg = Debug|Any CPU
+		{35771C7C-2047-4CC9-81DA-BD85546F1769}.Nightly|Any CPU.Build.0 = Debug|Any CPU
+		{35771C7C-2047-4CC9-81DA-BD85546F1769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35771C7C-2047-4CC9-81DA-BD85546F1769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35771C7C-2047-4CC9-81DA-BD85546F1769}.Store|Any CPU.ActiveCfg = Debug|Any CPU
+		{35771C7C-2047-4CC9-81DA-BD85546F1769}.Store|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

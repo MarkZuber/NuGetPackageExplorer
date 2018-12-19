@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PackageValidationTest": {
+      "commandName": "Project",
+      "commandLineArgs": "--filePath C:\\Users\\mark\\Downloads\\packages\\packages\\Microsoft.Identity.Client.2.6.1.nupkg --version 2.6.1"
+    }
+  }
+}
